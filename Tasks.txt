@@ -1,0 +1,9 @@
+Project:
+* Implement a story-generation system
+* Use it to generate a story
+* Evaluate how "good" the story is
+
+System:
+* Story Plot Generation based on CBR
+* Narrative Generation through Characters’ Point of View
+* A Sequential Recommendation Approach for Interactive Personalized Story Generation
