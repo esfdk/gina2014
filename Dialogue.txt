@@ -1,0 +1,47 @@
+Start:
+	Neutral. This is what's gonna happen.
+
+T:
+	Encouraging.
+
+F:
+	Frustrated. "Bad idea, but we can still save it"
+
+TT:
+	More encouraging.
+
+TF:
+	Surprised. "Wrong way. Must've been a mistake, but we can fix it"
+
+FF:
+	Baffled. "Why would you do that? The money is the other way"
+
+FT:
+	Positively surprised. "Good, we're back on track. The mistake has been fixed."
+
+TTT:
+	Even more encouraging.
+
+TTF:
+	Cold, cynical, disappointed. "Well, that was stupid."
+
+TFF:
+	. "It started out well, but gone downhill from there. No money unless you listen to what I say"
+
+TFT:
+	. "There was a miss-step on the way, but you#re back on track and will receive our payment"
+
+FFF:
+	Angry. "You clearly don't care what I say, so do whatever you want to. I'd say go for <right> door, but you don't listen anyway"
+
+FFT:
+	. "Terrible start, but you finally did something right. You will not receive the full payment 'cause of the mistakes, but you will receive some"
+
+FTT:
+	Very positive. "Good, good. The small mistake at the beginning might not have an impact anyway with how well you're doing now"
+
+FTF:
+	. "After saving it from your first mistake, you decide to derail the train entirely. Good job /slowclap"
+
+End:
+	. "Here is the amount we agreed upon. Thank you for your cooperation"
