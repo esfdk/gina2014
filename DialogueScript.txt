@@ -19,3 +19,30 @@ False-False:
 
 False-True:
 "Having corrected his previous mistake, our hero is now faced with another two doors. Going left would be the wrong choice, but how will our hero ever know?"
+
+True-True-True:
+"Being three for three, he was almost at the end... the grand reward was waiting for him juust behind the door on the right."
+
+True-True-False:
+"Sometimes people make mistakes without even knowing it... our hero had made such a mistake. There was still a chance to correct it, however - he just had to go through the door on the right."
+
+True-False-False:
+"His reward was vanishing quickly, yet he would never know unless he pressed on. Taking the door on the right would make sure he at least got some of the reward."
+
+True-False-True:
+"A small misstep is not the end of the world and he would learn of that soon enough - provided he chose the door on the right."
+
+False-False-False:
+"He has chosen the wrong route today... and he will not be getting his grand reward - yet, maybe he could recover some by choosing the door on the right."
+
+False-False-True:
+"He had started to turn the ship around, but he was still on course to crash - taking the door on the right would surely save the ship from sinking."
+
+False-True-True:
+"Having gotten the train back on track, he made sure it stayed on - now only the final stretch to the door on the right remained."
+
+False-True-False:
+"His choices were like a rollercoaster - up, down, up, down... except they were in right and wrong. Perhaps picking the door on the right would continue his rollercoaster ride and grant him his slight reward."
+
+End:
+"When our hero reached the end, he noticed that the amount of money on the table was exactly the agreed amount."
