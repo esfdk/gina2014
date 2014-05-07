@@ -1,6 +1,6 @@
 Narrator (always flat):
 Start room:
-"Waking up from his peaceful slumber, our hero finds himself in a place he has never seen before. Taking the door on the right out of this room would grant him a much higher reward than taking the left door, but he had no way of knowing this."
+"Waking up from his peaceful slumber, the man finds himself in a place he has never seen before. Taking the door on the right out of this room would grant him a much higher reward than taking the left door, but he had no way of knowing this."
 
 True:
 "Having chosen the correct door in the first room, he was well on his path to the big reward. However, taking the left door in this room would lead to a dramatic decrease in the reward he would receive at the end."
@@ -9,22 +9,22 @@ False:
 "Although he had no idea what the consequence of his choice was, this next room presented him with the same choice and the same consequences - the left door or the right door..."
 
 True-True:
-"Having chosen the correct path twice, our hero was now halfway to his grand reward. If he wanted to continue his success, he should go through the door on the right."
+"Having chosen the correct path twice, the man was now halfway to his grand reward. If he wanted to continue his success, he should go through the door on the right."
 
 True-False:
-"Our hero started off great, but taking the wrong path certainly meant a reduced reward. If he did not want to lose more of his reward, he would certainly need to choose the right door next."
+"The man had started off great, but taking the wrong path certainly meant a reduced reward. If he did not want to lose more of his reward, he would certainly need to choose the right door next."
 
 False-False:
-"Despite a terrible start, our hero still had a chance to turn the ship around. Choosing the right door would certainly help him recover some of the lost reward."
+"Despite a terrible start, the man still had a chance to turn the ship around. Choosing the right door would certainly help him recover some of the lost reward."
 
 False-True:
-"Having corrected his previous mistake, our hero is now faced with another two doors. Going left would be the wrong choice, but how will our hero ever know?"
+"Having corrected his previous mistake, the man is now faced with another two doors. Going left would be the wrong choice, but how will he ever know?"
 
 True-True-True:
 "Being three for three, he was almost at the end... the grand reward was waiting for him juust behind the door on the right."
 
 True-True-False:
-"Sometimes people make mistakes without even knowing it... our hero had made such a mistake. There was still a chance to correct it, however - he just had to go through the door on the right."
+"Sometimes people make mistakes without even knowing it... the man had made such a mistake. There was still a chance to correct it, however - he just had to go through the door on the right."
 
 True-False-False:
 "His reward was vanishing quickly, yet he would never know unless he pressed on. Taking the door on the right would make sure he at least got some of the reward."
@@ -46,4 +46,4 @@ False-True-False:
 "His choices were like a rollercoaster - up, down, up, down... except they were in right and wrong. Picking the door on the right would continue his rollercoaster ride and grant him his small reward."
 
 End:
-"When our hero reached the end, he noticed that the amount of money on the table was exactly the amount agreed upon."
+"When the man reached the end, he noticed that the amount of money on the table was exactly the amount agreed upon."
