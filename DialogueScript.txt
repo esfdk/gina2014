@@ -40,6 +40,7 @@ False-False-True:
 
 False-True-True:
 "Having gotten the train back on track, he had made sure it stayed on - now only the final stretch to the door on the right remained."
+"After getting the train back on track, he had made sure it stayed on - now only the final stretch to the door on the right remained."
 
 False-True-False:
 "His choices were like a rollercoaster - up, down, up, down... except they were in right and wrong. Picking the door on the right would continue his rollercoaster ride and grant him his small reward."

@@ -1,0 +1,42 @@
+Start:
+	V4 - Seperate the words "never seen before" a bit.
+
+Rooom1 
+	F:
+	V3 or V4 - A clearer start on either would be good.
+
+	T:
+	V2 or V3.
+
+Room2 
+	V1 in all of them. Decent tone overall, clear and easy to understand.
+
+Room3 
+	In general, try to make the voice match the ones from Room2 a bit more.
+
+	FFF:
+	V3
+
+	FFT:
+	V1 is a little better than V2.
+
+	FTF:
+	V2
+
+	FTT:
+	V2
+
+	TFF:
+	V2 
+
+	TFT:
+	V2 or V3
+
+	TTF:
+	V1
+
+	TTT:
+	V1
+
+End:
+	V2: Same tone of voice as in Start V4 and it is good.
