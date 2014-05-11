@@ -11,6 +11,10 @@ public class ScreenFader : MonoBehaviour
 
     private static bool _fading;
     private static float _fadeTimer;
+
+    private float _startTimer = 2f;
+    private float _originalFadeSpeed;
+
     private float _alpha;
     private Color _originalColor, _alphaColor;
 
@@ -21,11 +25,20 @@ public class ScreenFader : MonoBehaviour
         _alphaColor = Color.clear;
         _alphaColor.a = 0.99f;
 	    _alpha = _alphaColor.a;
+
+	    _originalFadeSpeed = FadeSpeed;
+	    FadeSpeed = 3;
 	}
 	
 	// Update is called once per frame
 	void Update () 
     {
+	    if (_startTimer > 0f)
+	    {
+	        _startTimer -= Time.deltaTime;
+	        return;
+	    }
+
         if (_fading)
         {
             FadeToBlack();
@@ -44,7 +57,11 @@ public class ScreenFader : MonoBehaviour
     /// </summary>
     void FadeToClear()
     {
-        if (_alpha <= 0.01f) return;
+        if (_alpha <= 0.01f)
+        {
+            FadeSpeed = _originalFadeSpeed;
+            return;
+        }
         _alpha -= FadeSpeed * Time.deltaTime;
         _alphaColor.a = _alpha;
     }

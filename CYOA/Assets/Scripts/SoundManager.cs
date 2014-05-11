@@ -49,6 +49,7 @@ public class SoundManager : MonoBehaviour
     public void Play(AudioClip clip)
     {
         if (clip == null) return;
+        audio.Stop();
         audio.PlayOneShot(clip, Volume);
     }
 }
