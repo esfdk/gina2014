@@ -19,6 +19,7 @@ Method:
 		"What did you think about the narrator?"
 		"Did you have any desire to do what the narrators said?"
 		"Would you do anything differently if you were to play again?"
+		"What did you think about the different rooms you went through?"
 		
 Results:
 	If it is not noticed that a narrator is unreliable, then is he?
