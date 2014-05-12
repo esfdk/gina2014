@@ -26,6 +26,15 @@
 
 \author{Jacob Claudius Grooss, Jakob Melnyk}
 
+\newcommand{\insertPicture}[3]{
+\begin{figure}[h!]
+  \centering
+\includegraphics[width=#1\textwidth]{Parts/#2}
+\caption{#3}
+\label{fig:#2}
+\end{figure}
+}
+
 % Uncomment out the following line for invited papers
 %\specialpapernotice{(Invited Paper)}
 
