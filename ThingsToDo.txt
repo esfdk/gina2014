@@ -28,3 +28,10 @@ Results:
 
 Conclusion:
 	Who did what
+	
+Testing:
+	Test once only explaining controls
+	Asks first questions
+	Have them play again
+	Ask last question
+	Tell player that narrator is unreliable (and watch their reactions)
