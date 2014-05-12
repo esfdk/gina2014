@@ -1,6 +1,8 @@
 In-game picture
 Room structure image
 Narrator is a liar
+"What influence does the narrator have on decision making in games?"
+"Does the player experience an unreliable narrator as reliable if no contradictions are given in the narrative?"
 
 Related work:
 	The Cambridge Introduction to Narrative
