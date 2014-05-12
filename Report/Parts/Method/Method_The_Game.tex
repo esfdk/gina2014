@@ -1,7 +1,7 @@
 \subsection{The Game}
 \label{Method_Game}
 
-The game we created required the player to go through four rooms, each time presenting the player with a choice between two doors; one on the right side of the room and one on the left side of the room. After the four rooms, the player ends in a final room with no exits and the game is over. The structure of the rooms can be seen in figure \ref{fig:RoomStructure} on page \pageref{fig:RoomStructure}.
+The game we created requires the player to go through four rooms, each room presenting the player with a choice between two doors; one on the right side of the room and one on the left side of the room. After the four rooms, the player ends in a final room with no exits and the game is over. The structure of the rooms can be seen in figure \ref{fig:RoomStructure} on page \pageref{fig:RoomStructure}.
 
 \insertPicture{0.45}{RoomStructure}{The structure of the rooms the player goes through.}
 
@@ -11,14 +11,6 @@ The first four rooms the player goes through are identical, with an entrance and
 
 The last room is different from the others, as it is the last room. This room has the same dimensions and color as the other rooms, but there are no exits, only an entrance. In addition, there is a pile of coins in the middle of the room that represents the player's reward. Attempting to pick the coins up will end the game.
 
-As the player progresses through the rooms, the narrator will speak to them in a way that implies that what the player is experiencing was something that happened in the past (\textit{"Taking the door on the right out of this room would grant him a much higher reward than taking the left door, but he had no way of knowing this."}).
-
-In each room the narrator gives a hint to which door is the better choice, either saying that one would result in a better reward or saying that the other door would decrease the reward. This is part of trying to make the narrator influence the player's decision.
-
-What the narrator says and how he reacts depends on the route the player has chosen. This way, we avoid that some of the script may sound out of place because the player went an unexpected way.
-
-In the last room, the script for the narrator is always the same, no matter the route. We chose to do this, to give the player the feeling that the route they chose did not actually matter, as it actually did not matter. The reward is always the same.
-
 What the player is never told, is that the first four rooms are actually the exact same room. When the player choses an exit, the game records which side they chose and then sends them back to the entrance of the room. This repeats three times, after which the player is let into the final room with the reward. We chose this "one-room-fits-all" method, as there was no need to create fifteen different versions of the exact same room.
 
 While we reuse the same room multiple times, we chose to only have the player go through a few rooms. There were two reasons for this:
@@ -26,3 +18,15 @@ While we reuse the same room multiple times, we chose to only have the player go
 	\item We did not want the player to become bored with walking through rooms, so we kept it to a low number. Adding more rooms would increase the likelihood that the player chose a door just for the sake of doing something different, thereby removing the point of having the narrator affect them.
 	\item For every "layer" of rooms, the amount of rooms would be doubled. As we wanted unique script for every possible left/right-combination the player could go, we would need to create more than twice as much audio as we already had for every new layer added.
 \end{enumerate}
+
+As the player progresses through the rooms, our narrator speaks to them in a way that implies that what the player is experiencing was something that happened in the past (\textit{"Taking the door on the right out of this room would grant him a much higher reward than taking the left door, but he had no way of knowing this."}).
+
+In each room the narrator gives a hint to which door is the better choice, either saying that one would result in a better reward or saying that the other door would decrease the reward. This is part of trying to make the narrator influence the player's decision.
+
+What the narrator says and how he reacts depends on the route the player has chosen. This way, we avoid that some of the script may sound out of place because the player went an unexpected way.
+
+The only room where the script does not change based on the route is the last room. We chose to do this, to give the player the feeling that the route they chose did not actually matter, as it actually did not matter. The reward is always the same.
+
+As the reward is always the same, no matter the route, it is clear that our narrator is unreliable. Under Booth's definition (as described by Olson\cite{Olson}) he would also be called untrustworthy, as he blatantly tells a lie whenever he speaks about the affect the player's decision will have on the reward they will receive.
+
+We decided to make the narrator unreliable because we wanted to see if the player could figure out that the narrator was lying, while only giving one, weak hit to that fact.
