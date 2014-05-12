@@ -9,6 +9,7 @@ CYOA/Assets/Dialogue System/Prefabs/*
 CYOA/Assets/Dialogue System/Scripts/*
 CYOA/Assets/Dialogue System/Third Party Support/*
 
+*.aux
 *.synctex.gz
 *.log
 *.pdf
