@@ -42,6 +42,24 @@ public class SoundManager : MonoBehaviour
         I = this;
     }
 
+    float GetVolume(AudioClip clip)
+    {
+        switch (clip.name)
+        {
+            case "FF":
+                return 0.5f;
+                break;
+
+            case "TFT":
+                return Volume * 1.2f;
+                break;
+
+            default:
+                return Volume;
+                break;
+        }
+    }
+
     /// <summary>
     /// Plays the given sound clip
     /// </summary>
@@ -49,7 +67,9 @@ public class SoundManager : MonoBehaviour
     public void Play(AudioClip clip)
     {
         if (clip == null) return;
+
+        Debug.Log(clip.name);
         audio.Stop();
-        audio.PlayOneShot(clip, Volume);
+        audio.PlayOneShot(clip, GetVolume(clip));
     }
 }
